@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: research-to-prod-ml-platform
+Version: 0.1.0
+Summary: Local-first MLOps platform for PyTorch model validation and deployment.
+Requires-Python: <3.12,>=3.11
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pyyaml>=6.0.0
+Requires-Dist: torch>=2.2.0
+Requires-Dist: torchvision>=0.17.0
+Requires-Dist: requests>=2.31.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: ruff>=0.5.0; extra == "dev"

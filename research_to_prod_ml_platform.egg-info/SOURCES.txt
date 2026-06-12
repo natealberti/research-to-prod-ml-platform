@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+apps/api/main.py
+ml_platform/__init__.py
+ml_platform/kubernetes/__init__.py
+ml_platform/registry/__init__.py
+ml_platform/storage/__init__.py
+ml_platform/validation/__init__.py
+research_to_prod_ml_platform.egg-info/PKG-INFO
+research_to_prod_ml_platform.egg-info/SOURCES.txt
+research_to_prod_ml_platform.egg-info/dependency_links.txt
+research_to_prod_ml_platform.egg-info/requires.txt
+research_to_prod_ml_platform.egg-info/top_level.txt
