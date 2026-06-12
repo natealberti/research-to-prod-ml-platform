@@ -1,0 +1,7 @@
+{
+  "shape": [
+    1,
+    10
+  ],
+  "dtype": "torch.float32"
+}

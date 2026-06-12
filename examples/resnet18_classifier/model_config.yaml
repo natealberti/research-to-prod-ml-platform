@@ -1,0 +1,17 @@
+model:
+  name: resnet18_classifier
+  framework: pytorch
+  adapter: torchvision_classifier
+  architecture: resnet18
+  checkpoint_format: state_dict
+  num_classes: 10
+
+input:
+  type: tensor
+  shape: [1, 3, 224, 224]
+  dtype: float32
+
+output:
+  type: logits
+  shape: [1, 10]
+  dtype: float32
